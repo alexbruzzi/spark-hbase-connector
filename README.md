@@ -2,6 +2,14 @@
 
 [![Build status](https://travis-ci.org/nerdammer/spark-hbase-connector.svg?branch=master)](https://travis-ci.org/nerdammer/spark-hbase-connector)
 
+### Scala 2.11
+
+This fork works with Scala version 2.11. Build using
+
+```shell
+sbt -Dscala-2.11=true package
+```
+
 This library lets your Apache Spark application interact with Apache HBase using a simple and elegant API.
 
 If you want to read and write data to HBase, you don't need using the Hadoop API anymore, you can just use Spark.
